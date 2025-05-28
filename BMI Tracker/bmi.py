@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("BMI Calculator")
+st.title("⚖️BMI Calculator")
 
 height = st.number_input("Enter your height in cm", min_value=0.0, format="%.2f")
 weight = st.number_input("Enter your weight in kg", min_value=0.0, format="%.2f")
